@@ -1,0 +1,12 @@
+C:\Users\carly\git\TerrariaInfiniteChests\TerrariaInfiniteChests\bin\x64\Release\net6.0\HttpServer.dll
+C:\Users\carly\git\TerrariaInfiniteChests\TerrariaInfiniteChests\bin\x64\Release\net6.0\TerrariaInfiniteChests.deps.json
+C:\Users\carly\git\TerrariaInfiniteChests\TerrariaInfiniteChests\bin\x64\Release\net6.0\TerrariaInfiniteChests.dll
+C:\Users\carly\git\TerrariaInfiniteChests\TerrariaInfiniteChests\bin\x64\Release\net6.0\TerrariaInfiniteChests.pdb
+C:\Users\carly\git\TerrariaInfiniteChests\TerrariaInfiniteChests\obj\x64\Release\net6.0\TerrariaInfiniteChests.csproj.AssemblyReference.cache
+C:\Users\carly\git\TerrariaInfiniteChests\TerrariaInfiniteChests\obj\x64\Release\net6.0\TerrariaInfiniteChests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carly\git\TerrariaInfiniteChests\TerrariaInfiniteChests\obj\x64\Release\net6.0\TerrariaInfiniteChests.csproj.CoreCompileInputs.cache
+C:\Users\carly\git\TerrariaInfiniteChests\TerrariaInfiniteChests\obj\x64\Release\net6.0\TerrariaInfiniteChests.sourcelink.json
+C:\Users\carly\git\TerrariaInfiniteChests\TerrariaInfiniteChests\obj\x64\Release\net6.0\TerrariaInfiniteChests.dll
+C:\Users\carly\git\TerrariaInfiniteChests\TerrariaInfiniteChests\obj\x64\Release\net6.0\refint\TerrariaInfiniteChests.dll
+C:\Users\carly\git\TerrariaInfiniteChests\TerrariaInfiniteChests\obj\x64\Release\net6.0\TerrariaInfiniteChests.pdb
+C:\Users\carly\git\TerrariaInfiniteChests\TerrariaInfiniteChests\obj\x64\Release\net6.0\ref\TerrariaInfiniteChests.dll

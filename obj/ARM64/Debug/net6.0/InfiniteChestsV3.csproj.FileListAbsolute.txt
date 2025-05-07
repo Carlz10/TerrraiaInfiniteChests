@@ -1,0 +1,4 @@
+C:\Users\carly\git\TerrariaInfiniteChests\TerrariaInfiniteChests\obj\ARM64\Debug\net6.0\TerrariaInfiniteChests.csproj.AssemblyReference.cache
+C:\Users\carly\git\TerrariaInfiniteChests\TerrariaInfiniteChests\obj\ARM64\Debug\net6.0\TerrariaInfiniteChests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carly\git\TerrariaInfiniteChests\TerrariaInfiniteChests\obj\ARM64\Debug\net6.0\TerrariaInfiniteChests.csproj.CoreCompileInputs.cache
+C:\Users\carly\git\TerrariaInfiniteChests\TerrariaInfiniteChests\obj\ARM64\Debug\net6.0\TerrariaInfiniteChests.sourcelink.json
