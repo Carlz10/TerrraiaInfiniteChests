@@ -1,2 +1,4 @@
-/.vs
-/bin
+TerrariaInfiniteChests/.vs/
+TerrariaInfiniteChests/obj/
+TerrariaInfiniteChests/bin/
+TerrariaInfiniteChests/Properties/launchSettings.json

@@ -1,0 +1,13 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+    <NoWarn>$(NoWarn);NU1507</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageVersion Include="OTAPI.Upcoming" Version="3.1.21" />
+    <PackageVersion Include="Microsoft.Data.Sqlite" Version="6.0.11" />
+    <PackageVersion Include="TShock" Version="5.2.3" />
+  </ItemGroup>
+</Project>
