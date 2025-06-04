@@ -362,15 +362,15 @@ namespace TerrariaInfiniteChests
 								List<int> users = string.IsNullOrEmpty(reader.Get<string>("Users")) ? new List<int>() : reader.Get<string>("Users").Split(',').ToList().ConvertAll(p => int.Parse(p));
 								List<string> groups = string.IsNullOrEmpty(reader.Get<string>("Groups")) ? new List<string>() : reader.Get<string>("Groups").Split(',').ToList();
 								int refill = reader.Get<int>("Refill");
-								InfChest chest = new InfChest(userid, x, y, Main.worldID)
-								{
-									id = id,
-									groups = groups,
-									isPublic = ispublic,
-									items = new Item[40],
-									refill = refill,
-									users = users
-								};
+                                                                InfChest chest = new InfChest(userid, x, y, Main.worldID)
+                                                                {
+                                                                        // Constructor pre-populates the item slots
+                                                                        id = id,
+                                                                        groups = groups,
+                                                                        isPublic = ispublic,
+                                                                        refill = refill,
+                                                                        users = users
+                                                                };
 								chests.Add(chest);
 
 							}
@@ -419,15 +419,15 @@ namespace TerrariaInfiniteChests
 						List<int> users = string.IsNullOrEmpty(reader.Get<string>("Users")) ? new List<int>() : reader.Get<string>("Users").Split(',').ToList().ConvertAll(p => int.Parse(p));
 						List<string> groups = string.IsNullOrEmpty(reader.Get<string>("Groups")) ? new List<string>() : reader.Get<string>("Groups").Split(',').ToList();
 						int refill = reader.Get<int>("Refill");
-						InfChest chest = new InfChest(userid, x, y, Main.worldID)
-						{
-							id = id,
-							groups = groups,
-							isPublic = ispublic,
-							items = new Item[40],
-							refill = refill,
-							users = users
-						};
+                                                InfChest chest = new InfChest(userid, x, y, Main.worldID)
+                                                {
+                                                        // Constructor pre-populates the item slots
+                                                        id = id,
+                                                        groups = groups,
+                                                        isPublic = ispublic,
+                                                        refill = refill,
+                                                        users = users
+                                                };
 						chests.Add(chest);
 
 					}
