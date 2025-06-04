@@ -1,4 +1,4 @@
-# TerrraiaInfiniteChests
+# TerrariaInfiniteChests
 
 This is an updated version of Zaicon Kiroshu's [InfiniteChestsV3 plugin](https://github.com/Zaicon/InfiniteChestsV3) (which was originally based on MarioE's InfiniteChests).
 I have updated the plugin to work with the current version of Terraria and TShock 5.2.3.
@@ -20,13 +20,13 @@ I have updated the plugin to work with the current version of Terraria and TShoc
 1. Ensure you're running TShock 5.2.3 or newer on Terraria 1.4+
 2. Ensure your server supports .NET 6.0
 3. Download the latest release from the GitHub releases page
-4. Place the `TerrraiaInfiniteChests.dll` in your server's `ServerPlugins` folder
+4. Place the `TerrariaInfiniteChests.dll` in your server's `ServerPlugins` folder
 5. Restart your TShock server
 6. The plugin will automatically create the necessary database tables on first run
 
 ## Database Configuration
 
-TerrraiaInfiniteChests uses the same database configuration as your TShock server:
+TerrariaInfiniteChests uses the same database configuration as your TShock server:
 
 - For SQLite, no additional configuration is needed
 - For MySQL, ensure your MySQL credentials are properly configured in the TShock config
@@ -76,7 +76,7 @@ ic.transfer - Enables use of /transferchests
 If you're upgrading from a previous version of InfiniteChests, follow these steps:
 
 1. Back up your existing database
-2. Install TerrraiaInfiniteChests as described in the Installation section
+2. Install TerrariaInfiniteChests as described in the Installation section
 3. Run `/transferchests` to migrate your chest data
 4. The migration process will transfer all chest data including protection settings
 5. Once completed, verify that your chests are accessible in-game
