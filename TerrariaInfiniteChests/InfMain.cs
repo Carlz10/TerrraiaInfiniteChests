@@ -405,7 +405,21 @@ namespace TerrariaInfiniteChests
                             }
 
                             if (cichest.isRefill)
+                            {
+                                if (circinfo == null)
+                                {
+                                    // If no refill info exists (e.g. the chest was never opened), create it now
+                                    circinfo = new RefillChestInfo()
+                                    {
+                                        ChestID = cichest.id,
+                                        CurrentItems = cichest.items,
+                                        PlayerID = !TShock.Players[index].IsLoggedIn ? -1 : TShock.Players[index].Account.ID,
+                                        TimeOpened = DateTime.Now
+                                    };
+                                    RCInfos.Add(circinfo);
+                                }
                                 circinfo.CurrentItems[itemslot] = item;
+                            }
                             else
                             {
                                 cichest.items[itemslot] = item;
